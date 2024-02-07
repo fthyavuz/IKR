@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Ikr.Database/1.0.0": {
+        "dependencies": {
+          "Ikr.Application": "1.0.0",
+          "Ikr.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Ikr.Database.dll": {}
+        }
+      },
+      "Ikr.Application/1.0.0": {
+        "runtime": {
+          "Ikr.Application.dll": {}
+        }
+      },
+      "Ikr.Domain/1.0.0": {
+        "runtime": {
+          "Ikr.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ikr.Database/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ikr.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ikr.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

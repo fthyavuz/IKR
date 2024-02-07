@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "mg71YVWvYam3LX7MiH1NXZoHfHcTts9PzbOVNi8HpVk=",
+  "Source": "Ikr.AspNetCore",
+  "BasePath": "_content/Ikr.AspNetCore",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

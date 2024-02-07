@@ -1,0 +1,12 @@
+C:\Users\Fatih\Temp\ikr-apps\backend\Ikr.Domain\bin\Debug\net6.0\Ikr.Domain.deps.json
+C:\Users\Fatih\Temp\ikr-apps\backend\Ikr.Domain\bin\Debug\net6.0\Ikr.Domain.dll
+C:\Users\Fatih\Temp\ikr-apps\backend\Ikr.Domain\bin\Debug\net6.0\Ikr.Domain.pdb
+C:\Users\Fatih\Temp\ikr-apps\backend\Ikr.Domain\obj\Debug\net6.0\Ikr.Domain.csproj.AssemblyReference.cache
+C:\Users\Fatih\Temp\ikr-apps\backend\Ikr.Domain\obj\Debug\net6.0\Ikr.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fatih\Temp\ikr-apps\backend\Ikr.Domain\obj\Debug\net6.0\Ikr.Domain.AssemblyInfoInputs.cache
+C:\Users\Fatih\Temp\ikr-apps\backend\Ikr.Domain\obj\Debug\net6.0\Ikr.Domain.AssemblyInfo.cs
+C:\Users\Fatih\Temp\ikr-apps\backend\Ikr.Domain\obj\Debug\net6.0\Ikr.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Fatih\Temp\ikr-apps\backend\Ikr.Domain\obj\Debug\net6.0\Ikr.Domain.dll
+C:\Users\Fatih\Temp\ikr-apps\backend\Ikr.Domain\obj\Debug\net6.0\refint\Ikr.Domain.dll
+C:\Users\Fatih\Temp\ikr-apps\backend\Ikr.Domain\obj\Debug\net6.0\Ikr.Domain.pdb
+C:\Users\Fatih\Temp\ikr-apps\backend\Ikr.Domain\obj\Debug\net6.0\ref\Ikr.Domain.dll

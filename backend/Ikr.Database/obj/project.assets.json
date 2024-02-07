@@ -1,0 +1,110 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Ikr.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Ikr.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ikr.Application.dll": {}
+        }
+      },
+      "Ikr.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Ikr.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ikr.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ikr.Application/1.0.0": {
+      "type": "project",
+      "path": "../Ikr.Application/Ikr.Application.csproj",
+      "msbuildProject": "../Ikr.Application/Ikr.Application.csproj"
+    },
+    "Ikr.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Ikr.Domain/Ikr.Domain.csproj",
+      "msbuildProject": "../Ikr.Domain/Ikr.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Ikr.Application >= 1.0.0",
+      "Ikr.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Fatih\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Fatih\\Temp\\ikr-apps\\backend\\Ikr.Database\\Ikr.Database.csproj",
+      "projectName": "Ikr.Database",
+      "projectPath": "C:\\Users\\Fatih\\Temp\\ikr-apps\\backend\\Ikr.Database\\Ikr.Database.csproj",
+      "packagesPath": "C:\\Users\\Fatih\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Fatih\\Temp\\ikr-apps\\backend\\Ikr.Database\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Fatih\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\Fatih\\Temp\\ikr-apps\\backend\\Ikr.Application\\Ikr.Application.csproj": {
+              "projectPath": "C:\\Users\\Fatih\\Temp\\ikr-apps\\backend\\Ikr.Application\\Ikr.Application.csproj"
+            },
+            "C:\\Users\\Fatih\\Temp\\ikr-apps\\backend\\Ikr.Domain\\Ikr.Domain.csproj": {
+              "projectPath": "C:\\Users\\Fatih\\Temp\\ikr-apps\\backend\\Ikr.Domain\\Ikr.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
