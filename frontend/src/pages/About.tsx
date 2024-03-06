@@ -1,10 +1,8 @@
 function About() {
   return (
-    <>
-      <h1>
-        This page will be replaced with some basic iformation about the app!
-      </h1>
-    </>
+    <div className="d'flex flex wrap">
+      <div></div>
+    </div>
   );
 }
 
