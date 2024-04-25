@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GXCP7yg0yNju6cAquEF36ms8a9a6NCdqQr6+3r5+gAxDfbUGa8Rynd1aATPuWVluwZkBU62VXolwNNcR3XlNKA==",
+  "dgSpecHash": "Pjc1+hNsFIF2YG3+h227FTGes6pCd9CWqL54YAV75UfAGUUxBmkKK6xrk3j8yBipjVHMVToi3pvm87oYf86YkA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Fatih\\Temp\\ikr-apps\\backend\\Ikr.AspNetCore\\Ikr.AspNetCore.csproj",
+  "projectFilePath": "C:\\Users\\Fatih\\source\\repos\\IKR\\backend\\Ikr.AspNetCore\\Ikr.AspNetCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Fatih\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.1.1\\microsoft.aspnetcore.cors.2.1.1.nupkg.sha512",
     "C:\\Users\\Fatih\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.1.1\\microsoft.aspnetcore.http.abstractions.2.1.1.nupkg.sha512",
@@ -17,6 +17,7 @@
     "C:\\Users\\Fatih\\.nuget\\packages\\microsoft.extensions.primitives\\2.1.1\\microsoft.extensions.primitives.2.1.1.nupkg.sha512",
     "C:\\Users\\Fatih\\.nuget\\packages\\microsoft.net.http.headers\\2.1.1\\microsoft.net.http.headers.2.1.1.nupkg.sha512",
     "C:\\Users\\Fatih\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Fatih\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Fatih\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\Fatih\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\Fatih\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",

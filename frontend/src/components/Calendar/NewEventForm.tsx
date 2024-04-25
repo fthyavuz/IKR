@@ -1,58 +1,82 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Button, Container, Form } from "react-bootstrap";
-import { IkrEvent } from "../interfaces";
+import { EventItem } from "../interfaces";
+import { addEvent, deleteEvent } from "../dataUtils";
 
-export function NewEventForm() {
-  const [ikrEvent, setIkrEvent] = useState<IkrEvent>({
-    eventName: "",
-    startDateTime: "",
-    endDateTime: "",
-    eventLocation: "",
-    eventDescription: "",
-    organizerName: "",
-  });
+export function NewEventForm({ eventDetails }: { eventDetails: EventItem }) {
+  const [eventItem, setEventItem] = useState<EventItem>(eventDetails);
+  // This useEffect hook listens for changes in eventDetails prop
+  useEffect(() => {
+    setEventItem(eventDetails); // Update eventItem when eventDetails changes
+  }, [eventDetails]);
+  let isUpdatedState = eventDetails.title !== "";
   const handleInputChange = (
     event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
     const { name, value } = event.target;
-    setIkrEvent((prevIkrEvent) => ({
-      ...prevIkrEvent,
+    setEventItem((prevEvent) => ({
+      ...prevEvent,
       [name]: value,
     }));
   };
+
   const handleSubmit = async (event: React.FormEvent) => {
     event.preventDefault();
-    console.log("Submitted:", ikrEvent);
+    addEvent(eventItem);
+    alert("Event submitted successfully!");
+    console.log("Submitted:", eventItem);
+  };
+
+  const handleUpdate = async (event: React.FormEvent) => {
+    event.preventDefault();
+    console.log("Submitted:", eventItem);
+  };
+  const handleDelete = async (id: string) => {
+    deleteEvent(id);
+    alert("The event has been removed successfully!");
+  };
+  const handleClearForm = () => {
+    setEventItem({
+      id: "",
+      title: "",
+      organizer: "",
+      description: "",
+      location: "",
+      evDate: "",
+      evTime: "",
+    });
   };
   return (
     <Container>
-      <h1>Create Event!</h1>
-      <Form onSubmit={handleSubmit} className="border">
+      {isUpdatedState ? <h1>Update Event!</h1> : <h1>Create Event!</h1>}
+      <Form onSubmit={handleSubmit} className="">
         <Form.Group controlId="id-event-name">
           <Form.Label>Event name:</Form.Label>
           <Form.Control
             required
             type="text"
-            name="eventName"
-            value={ikrEvent.eventName}
+            name="title"
+            value={eventItem.title}
             onChange={handleInputChange}
           />
         </Form.Group>
-        <Form.Group controlId="id-event-startDateTime">
-          <Form.Label>Starting date-time of event:</Form.Label>
+        <Form.Group controlId="id-event-date">
+          <Form.Label>Date of event:</Form.Label>
           <Form.Control
             required
-            type="text"
-            name="startDateTime"
+            type="date"
+            name="evDate"
+            value={eventItem.evDate}
             onChange={handleInputChange}
           />
         </Form.Group>
-        <Form.Group controlId="id-event-endDateTime">
-          <Form.Label>Ending date-time of event:</Form.Label>
+        <Form.Group controlId="id-event-time">
+          <Form.Label>Time of event:</Form.Label>
           <Form.Control
             required
-            type="text"
-            name="endDateTime"
+            type="time"
+            name="evTime"
+            value={eventItem.evTime}
             onChange={handleInputChange}
           />
         </Form.Group>
@@ -61,8 +85,8 @@ export function NewEventForm() {
           <Form.Control
             required
             type="text"
-            name="eventLocation"
-            value={ikrEvent.eventLocation}
+            name="location"
+            value={eventItem.location}
             onChange={handleInputChange}
           />
         </Form.Group>
@@ -71,8 +95,8 @@ export function NewEventForm() {
           <Form.Control
             required
             as="textarea"
-            name="eventDescription"
-            value={ikrEvent.eventDescription}
+            name="description"
+            value={eventItem.description}
             onChange={handleInputChange}
           />
         </Form.Group>
@@ -81,14 +105,35 @@ export function NewEventForm() {
           <Form.Control
             required
             type="text"
-            name="organizerName"
-            value={ikrEvent.organizerName}
+            name="organizer"
+            value={eventItem.organizer}
             onChange={handleInputChange}
           />
         </Form.Group>
-        <Button variant="primary" type="submit">
-          Submit
-        </Button>
+        {isUpdatedState ? (
+          <div className="d-flex justify-content-between align-items-center">
+            <Button
+              className="mt-3"
+              variant="primary"
+              type="submit"
+              onClick={handleUpdate}
+            >
+              Update
+            </Button>
+            <Button variant="light" className="mt-3" onClick={handleClearForm}>
+              <i className="bi bi-x"></i>
+            </Button>
+          </div>
+        ) : (
+          <Button
+            className="mt-3 mr-3"
+            variant="primary"
+            type="submit"
+            onClick={handleSubmit}
+          >
+            Add
+          </Button>
+        )}
       </Form>
     </Container>
   );

@@ -1,17 +1,19 @@
 // Event interface
-export interface IkrEvent {
-  eventName: string;
-  startDateTime: string; // Date and time in ISO 8601 format, e.g., "2022-01-01T16:00:00";
-  endDateTime: string; // Date and time in ISO 8601 format, e.g., "2022-01-01T18:00:00";
-  eventLocation: string;
-  eventDescription: string;
-  organizerName: string;
+export interface EventItem {
+  id: string;
+  title: string;
+  organizer: string;
+  description: string;
+  location: string;
+  evDate: string;
+  evTime: string;
 }
 
 export interface DayInfo {
   isToday: boolean; // Indicates whether the day is today
   hasEvent: boolean; // Indicates whether the day has any event
   isNonMonthDay: boolean; // Indicates whether the day is from a different month
+  isActiveDay: boolean;
 }
 
 // CalendarDay interface

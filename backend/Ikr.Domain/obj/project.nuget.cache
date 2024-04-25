@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "q94E3zD+377FZ7ry8uZDQ/OX8TSshnSHwH/mHDJPlR2npp+9KJofufnXAXimj72PGpYBX19oCTxKJNt3uoIuTQ==",
+  "dgSpecHash": "jU4dOr7T5iDcSprgh4ZtwC0rSfFuBab2v4UQdVLdKyeP1fjNMdRDvHhIS1l0ME+D2DTyp3zs5mHm7gpDI+v9AQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Fatih\\Temp\\ikr-apps\\backend\\Ikr.Domain\\Ikr.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Fatih\\source\\repos\\IKR\\backend\\Ikr.Domain\\Ikr.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

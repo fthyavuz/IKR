@@ -4,12 +4,14 @@ import { Route, Routes } from "react-router-dom";
 import { CreateActivity } from "./pages/CreateActivity";
 import About from "./pages/About";
 import { Calendar } from "./components/Calendar/Calendar";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
     <>
       <Header />
       <Calendar />
+      <Footer />
       <Container>
         <Routes>
           <Route path="/create-activity" element={<CreateActivity />} />

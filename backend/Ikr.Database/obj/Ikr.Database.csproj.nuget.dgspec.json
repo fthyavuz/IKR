@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Fatih\\Temp\\ikr-apps\\backend\\Ikr.Database\\Ikr.Database.csproj": {}
+    "C:\\Users\\Fatih\\source\\repos\\IKR\\backend\\Ikr.Database\\Ikr.Database.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Fatih\\Temp\\ikr-apps\\backend\\Ikr.Application\\Ikr.Application.csproj": {
+    "C:\\Users\\Fatih\\source\\repos\\IKR\\backend\\Ikr.Application\\Ikr.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fatih\\Temp\\ikr-apps\\backend\\Ikr.Application\\Ikr.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Fatih\\source\\repos\\IKR\\backend\\Ikr.Application\\Ikr.Application.csproj",
         "projectName": "Ikr.Application",
-        "projectPath": "C:\\Users\\Fatih\\Temp\\ikr-apps\\backend\\Ikr.Application\\Ikr.Application.csproj",
+        "projectPath": "C:\\Users\\Fatih\\source\\repos\\IKR\\backend\\Ikr.Application\\Ikr.Application.csproj",
         "packagesPath": "C:\\Users\\Fatih\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fatih\\Temp\\ikr-apps\\backend\\Ikr.Application\\obj\\",
+        "outputPath": "C:\\Users\\Fatih\\source\\repos\\IKR\\backend\\Ikr.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Fatih\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,14 +59,14 @@
         }
       }
     },
-    "C:\\Users\\Fatih\\Temp\\ikr-apps\\backend\\Ikr.Database\\Ikr.Database.csproj": {
+    "C:\\Users\\Fatih\\source\\repos\\IKR\\backend\\Ikr.Database\\Ikr.Database.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fatih\\Temp\\ikr-apps\\backend\\Ikr.Database\\Ikr.Database.csproj",
+        "projectUniqueName": "C:\\Users\\Fatih\\source\\repos\\IKR\\backend\\Ikr.Database\\Ikr.Database.csproj",
         "projectName": "Ikr.Database",
-        "projectPath": "C:\\Users\\Fatih\\Temp\\ikr-apps\\backend\\Ikr.Database\\Ikr.Database.csproj",
+        "projectPath": "C:\\Users\\Fatih\\source\\repos\\IKR\\backend\\Ikr.Database\\Ikr.Database.csproj",
         "packagesPath": "C:\\Users\\Fatih\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fatih\\Temp\\ikr-apps\\backend\\Ikr.Database\\obj\\",
+        "outputPath": "C:\\Users\\Fatih\\source\\repos\\IKR\\backend\\Ikr.Database\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Fatih\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,11 +83,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Fatih\\Temp\\ikr-apps\\backend\\Ikr.Application\\Ikr.Application.csproj": {
-                "projectPath": "C:\\Users\\Fatih\\Temp\\ikr-apps\\backend\\Ikr.Application\\Ikr.Application.csproj"
+              "C:\\Users\\Fatih\\source\\repos\\IKR\\backend\\Ikr.Application\\Ikr.Application.csproj": {
+                "projectPath": "C:\\Users\\Fatih\\source\\repos\\IKR\\backend\\Ikr.Application\\Ikr.Application.csproj"
               },
-              "C:\\Users\\Fatih\\Temp\\ikr-apps\\backend\\Ikr.Domain\\Ikr.Domain.csproj": {
-                "projectPath": "C:\\Users\\Fatih\\Temp\\ikr-apps\\backend\\Ikr.Domain\\Ikr.Domain.csproj"
+              "C:\\Users\\Fatih\\source\\repos\\IKR\\backend\\Ikr.Domain\\Ikr.Domain.csproj": {
+                "projectPath": "C:\\Users\\Fatih\\source\\repos\\IKR\\backend\\Ikr.Domain\\Ikr.Domain.csproj"
               }
             }
           }
@@ -101,6 +101,16 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -121,14 +131,14 @@
         }
       }
     },
-    "C:\\Users\\Fatih\\Temp\\ikr-apps\\backend\\Ikr.Domain\\Ikr.Domain.csproj": {
+    "C:\\Users\\Fatih\\source\\repos\\IKR\\backend\\Ikr.Domain\\Ikr.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fatih\\Temp\\ikr-apps\\backend\\Ikr.Domain\\Ikr.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Fatih\\source\\repos\\IKR\\backend\\Ikr.Domain\\Ikr.Domain.csproj",
         "projectName": "Ikr.Domain",
-        "projectPath": "C:\\Users\\Fatih\\Temp\\ikr-apps\\backend\\Ikr.Domain\\Ikr.Domain.csproj",
+        "projectPath": "C:\\Users\\Fatih\\source\\repos\\IKR\\backend\\Ikr.Domain\\Ikr.Domain.csproj",
         "packagesPath": "C:\\Users\\Fatih\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fatih\\Temp\\ikr-apps\\backend\\Ikr.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Fatih\\source\\repos\\IKR\\backend\\Ikr.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Fatih\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Fatih\\Temp\\ikr-apps\\backend\\Ikr.Domain\\Ikr.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Fatih\\source\\repos\\IKR\\backend\\Ikr.Domain\\Ikr.Domain.csproj",
       "projectName": "Ikr.Domain",
-      "projectPath": "C:\\Users\\Fatih\\Temp\\ikr-apps\\backend\\Ikr.Domain\\Ikr.Domain.csproj",
+      "projectPath": "C:\\Users\\Fatih\\source\\repos\\IKR\\backend\\Ikr.Domain\\Ikr.Domain.csproj",
       "packagesPath": "C:\\Users\\Fatih\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Fatih\\Temp\\ikr-apps\\backend\\Ikr.Domain\\obj\\",
+      "outputPath": "C:\\Users\\Fatih\\source\\repos\\IKR\\backend\\Ikr.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Fatih\\AppData\\Roaming\\NuGet\\NuGet.Config",

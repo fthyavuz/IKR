@@ -10,3 +10,15 @@ C:\Users\Fatih\Temp\ikr-apps\backend\Ikr.Application\obj\Debug\net6.0\Ikr.Applic
 C:\Users\Fatih\Temp\ikr-apps\backend\Ikr.Application\obj\Debug\net6.0\refint\Ikr.Application.dll
 C:\Users\Fatih\Temp\ikr-apps\backend\Ikr.Application\obj\Debug\net6.0\Ikr.Application.pdb
 C:\Users\Fatih\Temp\ikr-apps\backend\Ikr.Application\obj\Debug\net6.0\ref\Ikr.Application.dll
+C:\Users\Fatih\source\repos\IKR\backend\Ikr.Application\bin\Debug\net6.0\Ikr.Application.deps.json
+C:\Users\Fatih\source\repos\IKR\backend\Ikr.Application\bin\Debug\net6.0\Ikr.Application.dll
+C:\Users\Fatih\source\repos\IKR\backend\Ikr.Application\bin\Debug\net6.0\Ikr.Application.pdb
+C:\Users\Fatih\source\repos\IKR\backend\Ikr.Application\obj\Debug\net6.0\Ikr.Application.csproj.AssemblyReference.cache
+C:\Users\Fatih\source\repos\IKR\backend\Ikr.Application\obj\Debug\net6.0\Ikr.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fatih\source\repos\IKR\backend\Ikr.Application\obj\Debug\net6.0\Ikr.Application.AssemblyInfoInputs.cache
+C:\Users\Fatih\source\repos\IKR\backend\Ikr.Application\obj\Debug\net6.0\Ikr.Application.AssemblyInfo.cs
+C:\Users\Fatih\source\repos\IKR\backend\Ikr.Application\obj\Debug\net6.0\Ikr.Application.csproj.CoreCompileInputs.cache
+C:\Users\Fatih\source\repos\IKR\backend\Ikr.Application\obj\Debug\net6.0\Ikr.Application.dll
+C:\Users\Fatih\source\repos\IKR\backend\Ikr.Application\obj\Debug\net6.0\refint\Ikr.Application.dll
+C:\Users\Fatih\source\repos\IKR\backend\Ikr.Application\obj\Debug\net6.0\Ikr.Application.pdb
+C:\Users\Fatih\source\repos\IKR\backend\Ikr.Application\obj\Debug\net6.0\ref\Ikr.Application.dll

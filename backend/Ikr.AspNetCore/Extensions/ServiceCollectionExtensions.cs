@@ -8,6 +8,6 @@ public static class ServiceCollectionExtensions
 	public static void RegisterServices(this IServiceCollection services)
 	{
 		if (services == null) throw new ArgumentNullException(nameof(services));
-		services.AddSingleton<IActivityRepository, ActivityRepository>();
+		services.AddSingleton<IEventRepository, EventRepository>();
 	}
 }
